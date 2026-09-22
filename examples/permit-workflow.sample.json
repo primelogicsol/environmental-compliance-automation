@@ -1,0 +1,24 @@
+{
+  "permit_id": "ENV-PERMIT-2026-001",
+  "facility_id": "FAC-1001",
+  "workflow_status": "internal_review",
+  "conditions": [
+    {
+      "condition_id": "COND-01",
+      "description": "Monthly monitoring report required.",
+      "evidence_required": true,
+      "status": "pending_review"
+    }
+  ],
+  "review": {
+    "assigned_to": "compliance_reviewer",
+    "approval_required": true,
+    "submission_ready": false
+  },
+  "audit": {
+    "created_at": "2026-09-22T11:00:00Z",
+    "last_updated_by": "demo_user",
+    "change_reason": "Initial workflow sample"
+  },
+  "notice": "Fictional demonstration data only."
+}
